@@ -1,0 +1,33 @@
+html,
+body{
+    display: flex;
+    max-height: fit-content;
+    max-width: 1564px;
+}
+
+.navbar{
+    display: block;
+}
+
+.article{
+    display: block;
+    background-color: rgb(45, 45, 45);
+    color: rgb(245, 245, 245);
+    margin-left: 32px;
+    margin-right: 32px;
+    overflow-x: auto;
+    max-width: 1500px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.article h1 {
+ font-size: 72px;
+
+}
+
+.image-article{
+    position: inherit;
+}
+
