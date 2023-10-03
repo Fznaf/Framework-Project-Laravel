@@ -13,10 +13,11 @@ return new class extends Migration
     {
         Schema::create('cards', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            //$table->timestamps();
             $table->string('name');
             $table->float('rate');
-            $table->binary('image');
+            //$table->binary('image');
+            $table->string('rarity');
         });
     }
 
