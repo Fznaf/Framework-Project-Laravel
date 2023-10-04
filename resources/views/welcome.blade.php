@@ -9,7 +9,7 @@
   </head>
   <body>
 
-
+    
     <section class="discussion-title">
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -43,14 +43,16 @@
                 </div>
             </div>
         </nav>
-
-        <img class="image-before" src="/images/image.png" alt="image">
+        <div class="article article-background">
    <div class="article">
+    
     <img class="" src="" alt="" width="" height=""> 
     <h1>Title</h1>
-    <img class="image-article" src="/images/image.png" alt="image">
+    <img class="image-article" src="/images/miriam.jpg" alt="image">
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
    </div>
+        </div>
+
    
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

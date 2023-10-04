@@ -3,6 +3,10 @@ body{
     display: flex;
     max-height: fit-content;
     max-width: 1564px;
+    background-image: url('/images/miriam.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .navbar{
@@ -20,12 +24,14 @@ body{
     height: auto;
     padding: 10px;
     border-radius: 10px 10px 10px 10px;
+    margin-top: 64px;
 }
 
 .article h1 {
  font-size: 72px;
 
 }
+
 
 .image-article{
     position: inherit;
