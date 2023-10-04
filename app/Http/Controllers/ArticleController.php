@@ -3,15 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class ArticleController extends Controller
 {
-    public function index()
-    {
-    return view('test');
-    }
-
-    public function create(){
-        return 1+1;
+    public function index(){
+        $cards = DB::table('cards')-> get();
+        return view('welcome', ['cards' => $cards]);
     }
 }
