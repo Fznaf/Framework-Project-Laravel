@@ -1,7 +1,7 @@
 # Framework-Project-Laravel
 
 Fauzan Ahmad Faisal - 5025211067
-Satria Surya Prana - 5025211
+Satria Surya Prana - 5025211073
 
 Our idea is to make a website that will display a list of TCG Pokemon cards along with each card's images, price, rarity, and description.
 
